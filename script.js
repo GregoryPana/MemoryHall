@@ -38,7 +38,6 @@ const image_paths = [
 
 const navToggle = document.querySelector(".nav-toggle");
 const links = document.querySelector(".links");
-
 let res = document.getElementById('gallery');
 
 navToggle.addEventListener('click', function() {
@@ -47,7 +46,6 @@ navToggle.addEventListener('click', function() {
     diplayImages(image_paths);
     //loadDoc();
 });
-
 
 function diplayImages(im_path) {
     let displayItems = im_path.map(function (item) {
