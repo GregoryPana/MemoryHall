@@ -371,7 +371,6 @@ nav {
     border: 2px solid #fff;
     transition: opacity 0.3s;
 }
-
 .thumbnail:hover,
 .thumbnail.active-thumbnail {
     opacity: 0.7;
