@@ -6,7 +6,7 @@ let currentIndex = 0;
         function openLightbox(event) {
             if (event.target.tagName === 'IMG') {
                 const clickedIndex = Array.from(images).indexOf(event.target);
-                currentIndex = clickedIndex;
+                currentIndex = clickedIndex + 1;
                 updateLightboxImage();
                 document.getElementById('lightbox').style.display = 'flex';
             }
@@ -33,7 +33,8 @@ let currentIndex = 0;
             const lightboxImg = document.getElementById('lightbox-img');
             const thumbnailContainer = document.getElementById('thumbnail-container');
 
-            // Update the main lightbox image
+            // Update the main lightbox images  
+            console.log(currentIndex);  
             lightboxImg.src = images[currentIndex].src;
 
             // Clear existing thumbnails
@@ -62,7 +63,6 @@ let currentIndex = 0;
 
         // Add initial thumbnails
         updateLightboxImage();
-
 
         // To add keyboard navigation (left/right arrow keys)
         document.addEventListener('keydown', function (e) {
