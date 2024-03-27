@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>Memories</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -40,15 +40,13 @@
       </div>
     </nav>
     <!--GALLERY-->
-    <div class="gallery" onclick="openLightbox(event)">
-      <img src="https://assets.codepen.io/210284/flower-6.jpg"
+    <div class="gallery" id="gallery" onclick="openLightbox(event)">
+      <img src="./Gallery/picture_test.jpg"
           alt="Image 1">
-      <img src="https://assets.codepen.io/210284/flower-7.jpg"
+      <img src="./Gallery/flower-6.jpg"
           alt="Image 2">
-      <img src="https://assets.codepen.io/210284/flower-8.jpg"
+      <img src="./Gallery/colours.jpg"
           alt="Image 3">
-      <img src="https://assets.codepen.io/210284/flower-9.jpg"
-          alt="Image 4">
   </div>
   <!--LIGHTHOUSE-->
 
@@ -68,6 +66,7 @@
     <!-- Previous and Next buttons -->
     <button id="prev-btn" onclick="changeImage(-1)">Prev</button>
     <button id="next-btn" onclick="changeImage(1)">Next</button>
+    
   </div>
 
     <!-- javascript -->
