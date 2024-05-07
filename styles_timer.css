@@ -290,6 +290,7 @@ nav {
 .links a {
   color: var(--clr-grey-1);
   font-size: 0.75rem;
+  font-weight: 600;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -307,7 +308,7 @@ nav {
   transition: var(--transition);
 }
 .show-links {
-  height: 12rem;
+  height: 11rem;
 }
 .gift-info p {
   margin: 2rem 0;
