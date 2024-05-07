@@ -413,7 +413,7 @@ Countdown Timer
   .gift-img {
     margin-bottom: 0;
   }
-
+}
 .gift-info p {
   margin: 2rem 0;
 }
@@ -497,7 +497,7 @@ color: rgba(231, 151, 151, 1);
   color: var(--clr-title);
   background-color: transparent;
   border: none;
-  padding: 5px;
+  padding: px;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 8%;
