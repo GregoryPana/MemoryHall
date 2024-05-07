@@ -266,7 +266,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-grey-4);
+  background: var(--clr-gold); /* --clr-grey-4 */
   box-shadow: var(--dark-shadow);
 }
 .nav-header {
