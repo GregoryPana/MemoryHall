@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
+    <title>Memories</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -25,22 +25,54 @@
         <!-- links -->
       <ul class="links show-links">
         <li>
-          <a href="index2.html">HOME</a>
+          <a href="index2.html">ALL</a>
         </li>
         <li>
-          <a href="family.html">ABOUT</a>
+          <a href="family.html">ANIMAL</a>
         </li>
         <li>
-          <a href="backup.html">INDEX</a>
+          <a href="backup.html">FOOD</a>
         </li>
         <li>
-          <a href="friends.html">CONTACT</a>
+          <a href="friends.html">LANDSCAPE</a>
+        </li>
+        <li>
+          <a href="timer.html">COUNTDOWN</a>
         </li>
       </ul>
       </div>
     </nav>
+
+    <!--GALLERY-->
+    <div class="gallery" id="gallery" onclick="openLightbox(event)">
+
+    </div>
+    <!--LIGHTHOUSE-->
+
+    <!-- Lightbox container -->
+    <div id="lightbox">
+      <!-- Close button -->
+      <span id="close-btn" onclick="closeLightbox()">&times;</span>
+
+      <!-- Main lightbox image -->
+      <img id="lightbox-img" src="" alt="lightbox image">
+
+      <!-- Thumbnails container -->
+      <div id="thumbnail-container">
+          <!-- Thumbnails will be added dynamically using JavaScript -->
+      </div>
+
+      <!-- Previous and Next buttons -->
+      <button id="prev-btn" onclick="changeImage(-1)">Prev</button>
+      <button id="next-btn" onclick="changeImage(1)">Next</button>
+      
+    </div>
+
     <!-- javascript -->
+    <script src="output.js"></script>
     <script src="app.js"></script>
+    <script src="select_view.js"></script>
     <script src="script.js"></script>
+    <script src="lightbox.js"></script>
   </body>
 </html>

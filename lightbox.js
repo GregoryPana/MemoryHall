@@ -1,0 +1,2 @@
+// RUN
+show_category();
