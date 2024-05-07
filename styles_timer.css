@@ -290,7 +290,7 @@ nav {
 }
 .links a {
   color: var(--clr-gold); /* --clr-grey-1 */
-  font-size: 2rem;
+  font-size: 5rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -302,10 +302,6 @@ nav {
   color: var(--clr-primary-6);
   padding-left: 1.5rem;
 }
-
-.social-icons {
-  display: none;
-}
 .links {
   height: 0;
   overflow: hidden;
@@ -316,7 +312,7 @@ nav {
 }
 .gift-info p {
   margin: 2rem 0;
-  min-width: 80vw;
+  min-width: 85vw;
 }
 }
 
