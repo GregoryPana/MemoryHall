@@ -218,9 +218,6 @@ nav {
   color: var(--clr-grey-1);
   transform: rotate(90deg);
 }
-.logo {
-  height: 40px;
-}
 .links a {
   color: var(--clr-grey-1);
   font-size: 1rem;
