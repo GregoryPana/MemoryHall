@@ -273,10 +273,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.7rem;
 }
 .nav-toggle {
-  font-size: 0.75rem;
+  font-size: 1.2rem;
   color: var(--clr-primary-10);
   background: transparent;
   border-color: transparent;
