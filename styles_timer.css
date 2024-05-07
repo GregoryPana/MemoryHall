@@ -313,6 +313,49 @@ nav {
   margin: 2rem 0;
   min-width: 85vw;
 }
+
+/* --- --- NEW ADDED --- --- */
+
+.section-center {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 3rem;
+  width: 95vw;
+  max-width: 1100px;
+}
+.gift-img {
+  margin-bottom: 0;
+}
+
+.gift-info p {
+margin: 2rem 0;
+min-width: 80vw;
+}
+.deadline {
+display: flex;
+}
+.deadline-format {
+background: var(--clr-grey-1);
+color: var(--clr-white);
+margin-right: 1rem;
+width: 5rem;
+height: 5rem;
+display: grid;
+place-items: center;
+text-align: center;
+}
+.deadline-format span {
+display: block;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 0.85rem;
+}
+.deadline h4:not(.expired) {
+font-size: 2rem;
+margin-bottom: 0.25rem;
+letter-spacing: var(--spacing);
+}
 }
 
 /*
@@ -425,6 +468,7 @@ Countdown Timer
   display: grid;
   grid-template-rows: auto 1fr;
   min-width: 70vw;
+  max-width: 90vw;
 }
 
 .btn-container {
@@ -485,6 +529,7 @@ Timer
     place-items: center;
     gap: 3rem;
     width: 95vw;
+    max-width: 1100px;
   }
   .gift-img {
     margin-bottom: 0;
