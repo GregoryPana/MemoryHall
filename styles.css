@@ -382,7 +382,6 @@ nav {
 }
 }
 
-
 /*
 =============== 
 Countdown Timer
@@ -410,45 +409,16 @@ Countdown Timer
     gap: 3rem;
     width: 95vw;
   }
-  .gift-img {
-    margin-bottom: 0;
-  }
 }
-.gift-info p {
-  margin: 2rem 0;
-}
-.deadline {
-  display: flex;
-}
-.deadline-format {
-  background: var(--clr-grey-1);
-  color: var(--clr-white);
-  margin-right: 1rem;
-  width: 5rem;
-  height: 5rem;
-  display: grid;
-  place-items: center;
-  text-align: center;
-}
-.deadline-format span {
-  display: block;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.85rem;
-}
-.deadline h4:not(.expired) {
-  font-size: 2rem;
-  margin-bottom: 0.25rem;
-  letter-spacing: var(--spacing);
-}
+
 @media screen and (max-width: 768px) {
 .gallery img {
-  margin: 10px;
+  margin: 5px;
   cursor: pointer;
-  max-width: 175px;
+  max-width: 165px;
   width: 50%;
   height: 50%;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 
 /* Lightbox styles */
