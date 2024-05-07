@@ -449,4 +449,6 @@ Countdown Timer
   margin-bottom: 0.25rem;
   letter-spacing: var(--spacing);
 }
+@media screen and (max-width: 768px) {
 
+}
