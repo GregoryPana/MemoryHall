@@ -240,7 +240,6 @@ nav {
   padding-left: 1.5rem;
 }
 
-
 .social-icons {
   display: none;
 }
@@ -250,7 +249,7 @@ nav {
   transition: var(--transition);
 }
 .show-links {
-  height: 14rem;
+  height: 12rem;
 }
 @media screen and (min-width: 800px) {
   
@@ -271,7 +270,7 @@ nav {
 }
   
 .nav-center {
-  max-width: 1500px;
+  max-width: 95vw;
   margin: 0 auto;
   display: flex;
   align-items: center;
