@@ -266,7 +266,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-gold); /*--clr-grey-4*/
+  background: var(--clr-grey-4);
   box-shadow: var(--dark-shadow);
 }
 .nav-header {
@@ -313,6 +313,10 @@ nav {
 }
 .show-links {
   height: 12rem;
+}
+.gift-info p {
+  margin: 2rem 0;
+  min-width: 80vw;
 }
 }
 
