@@ -497,7 +497,7 @@ color: rgba(231, 151, 151, 1);
   color: var(--clr-title);
   background-color: transparent;
   border: none;
-  padding: px;
+  padding: 10px;
   cursor: pointer;
   transition: 0.3s;
   border-radius: 8%;
