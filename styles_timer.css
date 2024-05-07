@@ -332,40 +332,6 @@ Countdown Timer
   font-size: 0.85rem;
 }
 
-/*
-=============== 
-Timer
-===============
-*/
-.gift-info p {
-  margin: 2rem 0;
-  min-width: 80vw;
-}
-.deadline {
-  display: flex;
-}
-.deadline-format {
-  background: var(--clr-grey-1);
-  color: var(--clr-white);
-  margin-right: 1rem;
-  width: 5rem;
-  height: 5rem;
-  display: grid;
-  place-items: center;
-  text-align: center;
-}
-.deadline-format span {
-  display: block;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.85rem;
-}
-.deadline h4:not(.expired) {
-  font-size: 2rem;
-  margin-bottom: 0.25rem;
-  letter-spacing: var(--spacing);
-}
-
 @media screen and (min-width: 992px) {
   
 /*
@@ -482,5 +448,62 @@ Timer
   font-size: 2rem;
   margin-bottom: 0.25rem;
   letter-spacing: var(--spacing);
+}
+}
+@media screen and (max-width: 768px) {
+  
+  /*
+=============== 
+Navbar
+===============
+*/
+nav {
+  background: var(--clr-grey-4);
+  box-shadow: var(--dark-shadow);
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*justify-content: center;*/
+  padding: 1rem;
+}
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-primary-10);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-6);
+  transform: rotate(90deg);
+}
+.links a {
+  color: var(--clr-grey-1);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.4rem 1.2rem;
+  transition: var(--transition);
+}
+.links a:hover {
+  background: var(--clr-primary-2);
+  color: var(--clr-primary-6);
+  padding-left: 1.5rem;
+}
+
+.social-icons {
+  display: none;
+}
+.links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-links {
+  height: 12rem;
 }
 }
