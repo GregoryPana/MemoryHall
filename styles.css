@@ -25,13 +25,13 @@ Variables
   --clr-nav-greg: #d8a97a;
   --clr-nav-def: hsl(0, 63%, 75%);
   --clr-nav-timer:  hsl(209, 35%, 57%);
-  --clr-nav-friends: #BAA0E3;
-  --clr-nav-family:  #b8e0d2;
+  --clr-nav-friends: #baa0e3f1;
+  --clr-nav-family:  #98868C;
 
 
   /*background colours for each page*/
-  --clr-friends-page: #d4a9cb; 
-  --clr-family-page: #d1d9e0;
+  --clr-friends-page: #d4a9cbee; 
+  --clr-family-page:  #B0C4DE;
   --clr-greg-page: #a38d5f;
   --clr-timer-page: hsl(211, 39%, 23%);
 
