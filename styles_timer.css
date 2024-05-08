@@ -534,8 +534,7 @@ Countdown Timer
   border-radius: var(--radius);
   display: grid;
   grid-template-rows: auto 1fr;
-  min-width: 70vw;
-  max-width: 90vw;
+  width: 90vw;
 }
 
 .btn-container {
