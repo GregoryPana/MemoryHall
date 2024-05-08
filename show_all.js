@@ -1,6 +1,7 @@
 let res = document.getElementById('gallery');
 
 // Function to display all imaes regardless of category
+
 function diplayImages() {
 
     let displayItems = data.map(function (item) {
@@ -11,6 +12,7 @@ function diplayImages() {
         displayItems = displayItems.join("");
         res.innerHTML = displayItems;
 }
+
 
 // run
 diplayImages();
