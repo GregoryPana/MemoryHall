@@ -437,7 +437,7 @@ END OF MOBILE VIEW
     grid-template-columns: 1fr 1fr;
     place-items: center;
     gap: 3rem;
-    width: 95vw;
+    width: 85vw;
   }
   .gift-img {
     margin-bottom: 0;
@@ -504,7 +504,7 @@ Countdown Timer
   color: var(--clr-grey-8);
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  min-width: 80vw;
+  width: 80vw;
 }
 .date {
   color: var(--clr-grey-5);
@@ -528,14 +528,14 @@ Countdown Timer
     column-gap: 2rem;
   }
   
-}
+
 .about {
   background: var(--clr-grey-6);
   border-radius: var(--radius);
   display: grid;
   grid-template-rows: auto 1fr;
-  width: 90vw;
-  max-width: 1200px;
+  width: 85vw;
+  max-width: 1000px;
 }
 
 .btn-container {
