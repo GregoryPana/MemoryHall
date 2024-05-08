@@ -16,14 +16,14 @@ const navbar = document.querySelector("nav");
 
 // Background Colour
 const bg_family = '--clr-family-page';
-const bg_jayde = '--clr-jayde-page';
+const bg_greg = '--clr-greg-page';
 const bg_friend = '--clr-friends-page';
 const bg_timer = '--clr-timer-page';
 const bg_def = '--clr-custom-bg';
 
 // Nav-bar colours
 const nav_def = '--clr-nav-def';
-const nav_jayde = '--clr-nav-jayde';
+const nav_greg = '--clr-nav-greg';
 const nav_timer = '--clr-nav-timer';
 const nav_friends = '--clr-nav-friends';
 const nav_family = '--clr-nav-family';
@@ -35,8 +35,8 @@ function get_category() {
             set_colours(bg_friend, nav_friends)
             category = categories[1];
             break;
-        case "backup.html": // food - Jayde Page
-            set_colours(bg_jayde, nav_jayde)
+        case "backup.html": // food - Gregory Page
+            set_colours(bg_greg, nav_greg)
             category = categories[2];
             break;
         case "family.html": // animal - Family Page

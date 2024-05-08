@@ -431,7 +431,7 @@ padding: 2rem 1.75rem;
 END OF MOBILE VIEW
 ===============
 */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 769px) {
 
   .about {
     background: var(--clr-grey-6);
