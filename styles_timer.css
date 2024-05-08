@@ -510,7 +510,7 @@ Countdown Timer
   color: var(--clr-grey-5);
   font-size: 0.85rem;
 }
-
+}
 @media screen and (min-width: 992px) {
   
 /*
@@ -535,6 +535,7 @@ Countdown Timer
   display: grid;
   grid-template-rows: auto 1fr;
   width: 90vw;
+  max-width: 1200px;
 }
 
 .btn-container {
