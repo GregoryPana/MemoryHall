@@ -322,7 +322,8 @@ nav {
   grid-template-columns: 1fr 1fr;
   place-items: center;
   gap: 3rem;
-  width: 95vw;
+  width: 85vw;
+  
 }
 .gift-img {
   margin-bottom: 0;
@@ -374,7 +375,7 @@ background: var(--clr-grey-6);
 border-radius: var(--radius);
 display: grid;
 grid-template-rows: auto 1fr;
-width: 90vw;
+width: 85vw;
 }
 
 .btn-container {
