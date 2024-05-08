@@ -7,16 +7,17 @@
     <!-- font-awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
 
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <nav>
-      <div class = "nav-center">
-      <!--Nav Header-->
-        <div class ="nav-header">
+      <div class="nav-center">
+        <!--Nav Header-->
+        <div class="nav-header">
           <b>PROJECT</b>
           <button class="nav-toggle">
             <i class="fas fa-bars"></i>
@@ -28,7 +29,7 @@
             <a href="index.html">ALL</a>
           </li>
           <li>
-            <a href="family.html">ANIMAL</a> 
+            <a href="family.html">ANIMAL</a>
           </li>
           <li>
             <a href="backup.html">FOOD</a>
@@ -42,32 +43,28 @@
         </ul>
       </div>
     </nav>
+    <!--GALLERY-->
+    <div class="gallery" id="gallery" onclick="openLightbox(event)"></div>
+    <!--LIGHTHOUSE-->
 
-        <!--GALLERY-->
-        <div class="gallery" id="gallery" onclick="openLightbox(event)">
+    <!-- Lightbox container -->
+    <div id="lightbox">
+      <!-- Close button -->
+      <span id="close-btn" onclick="closeLightbox()">&times;</span>
 
-        </div>
-        <!--LIGHTHOUSE-->
-    
-        <!-- Lightbox container -->
-        <div id="lightbox">
-          <!-- Close button -->
-          <span id="close-btn" onclick="closeLightbox()">&times;</span>
-    
-          <!-- Main lightbox image -->
-          <img id="lightbox-img" src="" alt="lightbox image">
-    
-          <!-- Thumbnails container -->
-          <div id="thumbnail-container">
-              <!-- Thumbnails will be added dynamically using JavaScript -->
-          </div>
-    
-          <!-- Previous and Next buttons -->
-          <button id="prev-btn" onclick="changeImage(-1)">Prev</button>
-          <button id="next-btn" onclick="changeImage(1)">Next</button>
-          
-        </div>
-        
+      <!-- Main lightbox image -->
+      <img id="lightbox-img" src="" alt="lightbox image" />
+
+      <!-- Thumbnails container -->
+      <div id="thumbnail-container">
+        <!-- Thumbnails will be added dynamically using JavaScript -->
+      </div>
+
+      <!-- Previous and Next buttons -->
+      <button id="prev-btn" onclick="changeImage(-1)">Prev</button>
+      <button id="next-btn" onclick="changeImage(1)">Next</button>
+    </div>
+
     <!-- javascript -->
     <script src="output.js"></script>
     <script src="app.js"></script>

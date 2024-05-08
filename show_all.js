@@ -1,5 +1,6 @@
 let res = document.getElementById('gallery');
 
+// Function to display all imaes regardless of category
 function diplayImages() {
 
     let displayItems = data.map(function (item) {
