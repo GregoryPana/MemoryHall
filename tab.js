@@ -25,13 +25,13 @@ about.addEventListener("click", function (e) {
 function get_info(id){
     message = document.querySelector('.about-content');
     switch(id){
-        case "FAMILY":
+        case "family":
             message.innerHTML = `<c> FAM Message </c>`;
             break;
-        case "GREGORY":
+        case "gregory":
             message.innerHTML = `<c> BF Message </c>`; 
             break;
-        case "FRIENDS":
+        case "friends":
             message.innerHTML = `<c> FRIEND Message </c>`;
             break;
         default:        
