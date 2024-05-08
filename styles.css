@@ -460,7 +460,7 @@ color: rgba(231, 151, 151, 1);
 /* Style for navigation buttons */
 #prev-btn,
 #next-btn {
-  display: flex;
+  display: none;
   align-items: center;
   position: absolute;
   top: 50%;
