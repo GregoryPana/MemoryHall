@@ -511,7 +511,7 @@ Countdown Timer
   color: var(--clr-grey-5);
   font-size: 0.85rem;
 }
-}
+
 @media screen and (min-width: 992px) {
   
 /*
@@ -529,7 +529,7 @@ Countdown Timer
     column-gap: 2rem;
   }
   
-
+}
 .about {
   background: var(--clr-grey-6);
   border-radius: var(--radius);
