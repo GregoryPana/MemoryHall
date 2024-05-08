@@ -323,7 +323,6 @@ nav {
   place-items: center;
   gap: 3rem;
   width: 85vw;
-  
 }
 .gift-img {
   margin-bottom: 0;
@@ -331,7 +330,7 @@ nav {
 
 .gift-info p {
 margin: 2rem 0;
-min-width: 85vw;
+width: 80vw;
 }
 .deadline {
 display: flex;
