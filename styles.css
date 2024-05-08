@@ -491,14 +491,14 @@ color: rgba(231, 151, 151, 1);
   justify-content: center;
 }
 .thumbnail {
-  max-width: 35px;
+  
   width: 50px;
-  max-height: 55px;
+  
   cursor: pointer;
   margin-top: 40px;
   margin-left: 25px;
   margin-right: 25px;
-  border: 2px solid #fff;
+  border: 2px solid #cecece;
   transition: opacity 0.3s;
 }
 
