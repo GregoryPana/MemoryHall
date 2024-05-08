@@ -289,10 +289,12 @@ nav {
   .gallery img {
     margin: 10px;
     cursor: pointer;
-    max-width: 300px;
-    width: 50%;
-    height: 50%;
+    width: 300px;
+    /*width: 50%;
+    height: 50%;*/
     border-radius: 10px;
+    overflow: hidden;
+    object-fit: fill;
 }
 
 /* Lightbox styles */
