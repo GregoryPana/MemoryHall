@@ -1,3 +1,5 @@
+// JSON format array to store img path and category
+
 const data = [{'path': 'Gallery\\family\\group1.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\jaja_jayde.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\jaja_joy.jpg', 'type': 'family'},
