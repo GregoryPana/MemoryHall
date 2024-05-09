@@ -441,7 +441,7 @@ Countdown Timer
   max-width: 85vw;
   max-height: 45vh;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
-  border-radius: 6px;
+  border-radius: 4px;
 }
 #close-btn {
   position: absolute;
