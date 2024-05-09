@@ -48,7 +48,7 @@
     <!--LIGHTHOUSE-->
 
     <!-- Lightbox container -->
-    <div id="lightbox" onclick="closeLightbox()">
+    <div id="lightbox" >
       <!-- Close button -->
       <span id="close-btn" onclick="closeLightbox()">&times;</span>
 
@@ -56,7 +56,7 @@
       <img id="lightbox-img" src="" alt="lightbox image" />
 
       <!-- Thumbnails container -->
-      <div id="thumbnail-container">
+      <div id="thumbnail-container" onclick="closeLightbox()">
         <!-- Thumbnails will be added dynamically using JavaScript -->
       </div>
 
