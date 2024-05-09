@@ -435,6 +435,7 @@ Countdown Timer
   align-items: center;
   overflow: scroll;
   flex-direction: column;
+  padding-top: 20px;
 }
 #lightbox img {
   max-width: 85vw;
