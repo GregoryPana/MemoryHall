@@ -14,7 +14,11 @@ const data = [
 {'path': 'Gallery\\friends\\cass_yuka_pool.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\huh.jpg', 'type': 'friends'},
 
+{'path': 'Gallery\\greg\\sausage.jpg', 'type': 'greg'},
+{'path': 'Gallery\\greg\\steak.jpg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\food.jpeg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\food2.jpeg', 'type': 'greg'},
+{'path': 'Gallery\\greg\\fishball.jpg', 'type': 'greg'},
+{'path': 'Gallery\\greg\\eggplant.jpg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\ice-cream.jpg', 'type': 'greg'},
-{'path': 'Gallery\\greg\\steak.jpg', 'type': 'greg'}];
+];
