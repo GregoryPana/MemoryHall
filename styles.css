@@ -21,17 +21,17 @@ Variables
   --clr-nav-button-hover: #ffdddd76;
   --clr-title-shadow: #a79090;
 
-  /*nav bar colours for each page*/
+  /*nav bar colours for each page  #98868C; */
   --clr-nav-greg: #d8a97a;
   --clr-nav-def: hsl(0, 63%, 75%);
   --clr-nav-timer:  hsl(209, 35%, 57%);
   --clr-nav-friends: #8864c1;
-  --clr-nav-family:  #98868C;
+  --clr-nav-family:   #ff6e61e7;
 
 
   /*background colours for each page*/
   --clr-friends-page: #e7c4df; 
-  --clr-family-page:  #B0C4DE;
+  --clr-family-page:  #ffa092;;
   --clr-greg-page: #a38d5f;
   --clr-timer-page: hsl(211, 39%, 23%);
 
