@@ -77,3 +77,9 @@ document.addEventListener('keydown', function (e) {
         }
     }
 });
+
+document.getElementById("lightbox").addEventListener('click', function(event) {
+    if (event.target === this) {
+        closeLightbox();
+    }
+})
