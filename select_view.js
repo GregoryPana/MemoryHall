@@ -1,5 +1,5 @@
-//           all or nothing-0, friends-1, jayde-2, family-3
-const categories = ["", "landscape", "food", "animal"];
+//           all or nothing-0, friends-1, greg-2, family-3
+const categories = ["", "friends", "greg", "family"];
 
 let rez = document.getElementById('gallery');
 
