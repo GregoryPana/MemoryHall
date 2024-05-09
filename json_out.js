@@ -6,6 +6,7 @@ const data = [
 {'path': 'Gallery\\family\\jaja_mother.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\jayde1.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\smellies.jpg', 'type': 'family'},
+{'path': 'Gallery\\family\\jaja_andrew.jpg', 'type': 'family'},
 
 {'path': 'Gallery\\friends\\cass_bday_yuka.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\cass_yuka.jpg', 'type': 'friends'},
