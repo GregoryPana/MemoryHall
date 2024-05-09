@@ -438,10 +438,9 @@ Countdown Timer
 }
 #lightbox img {
   max-width: 85vw;
-  max-height: 450px;
+  max-height: 45vh;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
   border-radius: 6px;
-  
 }
 #close-btn {
   position: absolute;
