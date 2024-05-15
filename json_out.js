@@ -26,7 +26,6 @@ const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\friends\\cass_yuka_2.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\cass_yuka_3.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\cass_yuka_pool.jpg', 'type': 'friends'},
-{'path': 'Gallery\\friends\\huh.jpg', 'type': 'friends'},
 
 {'path': 'Gallery\\greg\\1st_meet.jpg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\1year.jpg', 'type': 'greg'},
