@@ -433,9 +433,10 @@ Countdown Timer
   background: rgba(0, 0, 0, 0.925);
   justify-content: center;
   align-items: center;
-  overflow: scroll;
+  overflow-y: scroll;
   flex-direction: column;
   padding-top: 20px;
+  max-height: calc(100vh - 50px);
 }
 #lightbox img {
   max-width: 85vw;
@@ -490,6 +491,7 @@ color: rgba(231, 151, 151, 1);
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  max-height: calc(100vh - 50px);
 }
 .thumbnail {
   
