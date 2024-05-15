@@ -28,10 +28,10 @@ const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\friends\\cass_yuka_pool.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\huh.jpg', 'type': 'friends'},
 
-{'path': 'Gallery\\greg\\1st meet.jpg', 'type': 'greg'},
+{'path': 'Gallery\\greg\\1st_meet.jpg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\1year.jpg', 'type': 'greg'},
-{'path': 'Gallery\\greg\\2nd Date.jpg', 'type': 'greg'},
+{'path': 'Gallery\\greg\\2nd_Date.jpg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\car_ride_deji.jpg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\deji_date.jpg', 'type': 'greg'},
-{'path': 'Gallery\\greg\\NoF.jpg', 'type': 'greg'}
+{'path': 'Gallery\\greg\\NoF.jpg', 'type': 'greg'},
 ];
