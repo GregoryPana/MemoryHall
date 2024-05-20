@@ -532,6 +532,7 @@ color: rgba(231, 151, 151, 1);
   font-size: 40px;
   font-weight: 888;
   text-transform: uppercase;
+  z-index: 2;
 }
 .wrapper img{
   height: 50vw;
