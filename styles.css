@@ -534,6 +534,13 @@ color: rgba(231, 151, 151, 1);
   font-weight: 888;
   text-transform: uppercase;
 }
+.wrapper h2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
 .wrapper div {
   height: 60px;
   width: 60px;
@@ -543,6 +550,22 @@ color: rgba(231, 151, 151, 1);
   top: 10%;
   left: 10%;
   animation: 4s linear infinite;
+}
+.wrapper div .gallery {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wrapper div .gallery img {
+  margin: 10px;
+  cursor: pointer;
+  max-width: 165px;
+  width: 50%;
+  height: 50%;
+  border-radius: 8px;
 }
 div .dot {
   height: 10px;
