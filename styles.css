@@ -414,7 +414,7 @@ Countdown Timer
 
 @media screen and (max-width: 768px) {
 .gallery img {
-  margin: 5px;
+  margin: 10px;
   cursor: pointer;
   max-width: 165px;
   width: 50%;
@@ -491,10 +491,8 @@ color: rgba(231, 151, 151, 1);
   flex-wrap: wrap;
   justify-content: center;
 }
-.thumbnail {
-  
-  width: 50px;
-  
+.thumbnail { 
+  width: 50px; 
   cursor: pointer;
   margin-top: 40px;
   margin-left: 25px;
