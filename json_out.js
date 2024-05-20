@@ -1,4 +1,5 @@
-const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
+const data = [
+{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\fam2.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\fam3.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\fam4.jpg', 'type': 'family'},
