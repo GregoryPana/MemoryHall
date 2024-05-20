@@ -47,10 +47,6 @@ function get_category() {
             set_colours(bg_timer, nav_timer)
             category = categories[0];
             break;
-        case "test.html": // landscape - Freinds Page
-            set_colours(bg_friend, nav_friends)
-            category = categories[1];
-            break;
         default: // main page
             set_colours(bg_def , nav_def);
             category = categories[0];
