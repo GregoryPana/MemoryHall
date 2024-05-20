@@ -437,7 +437,7 @@ Countdown Timer
   padding-top: 20px;
 }
 #lightbox img {
-  position: absolute;
+
   max-width: 85%;
   max-height: 45vh;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
