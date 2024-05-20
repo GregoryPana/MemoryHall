@@ -533,6 +533,12 @@ color: rgba(231, 151, 151, 1);
   font-weight: 888;
   text-transform: uppercase;
 }
+.wrapper img{
+  height: 60%;
+  width: 85%;
+  position: absolute;
+}
+
 .wrapper div {
   height: 60px;
   width: 60px;
