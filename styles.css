@@ -576,11 +576,13 @@ div .dot {
   top: 20%;
   right: 20%;
 }
+/*
 .wrapper div:nth-child(1) {
   top: 20%;
   left: 20%;
   animation: animate 8s linear infinite;
 }
+*/
 .wrapper div:nth-child(2) {
   top: 60%;
   left: 80%;
