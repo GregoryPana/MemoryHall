@@ -25,8 +25,10 @@ Variables
   --clr-nav-greg: #d8a97a;
   --clr-nav-def: hsl(0, 63%, 75%);
   --clr-nav-timer:  hsl(209, 35%, 57%);
-  --clr-nav-friends: #8864c1;
+  --clr-nav-friends: linear-gradient(180deg, #04fafd, 5%, #119dff, 50%, #030423);
   --clr-nav-family:   #d86055e7;
+
+  /* --clr-nav-friends: #8864c1; */
 
 
   /*background colours for each page*/
