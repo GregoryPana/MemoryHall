@@ -65,4 +65,5 @@ const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\jayde\\jayde1.jpg', 'type': 'jayde'}, 
 {'path': 'Gallery\\jayde\\jayde2.jpg', 'type': 'jayde'}, 
 {'path': 'Gallery\\jayde\\jayde_cri.jpg', 'type': 'jayde'},
-{'path': 'Gallery\\jayde\\jayde_papa.jpg', 'type': 'jayde'}, {'path': 'Gallery\\jayde\\jayde_papa2.jpg', 'type': 'jayde'}];
+{'path': 'Gallery\\jayde\\jayde_papa.jpg', 'type': 'jayde'},
+{'path': 'Gallery\\jayde\\jayde_papa2.jpg', 'type': 'jayde'}];

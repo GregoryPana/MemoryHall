@@ -34,25 +34,25 @@ const nav_jayde = '--clr-nav-jayde';
 // Find the category for the page and asisgn colours and theme
 function get_category() {
     switch(linkHref) {
-        case "friends.html": // landscape - Freinds Page
+        case "friends.html": // Freinds Page
             set_colours(bg_friend, nav_friends)
             category = categories[1];
             break;
-        case "greg.html": // food - Gregory Page
+        case "greg.html": //  Gregory Page
             set_colours(bg_greg, nav_greg)
             category = categories[2];
             break;
-        case "family.html": // animal - Family Page
+        case "family.html": // Family Page
             set_colours(bg_family, nav_family)
             category = categories[3];
+            break;
+        case "jayde.html": // Jayde Page
+            set_colours(bg_timer, nav_timer)
+            category = categories[4];
             break;
         case "timer.html": // countdown - Timer Page
             set_colours(bg_timer, nav_timer)
             category = categories[0];
-            break;
-        case "jayde.html": // countdown - Timer Page
-            set_colours(bg_timer, nav_timer)
-            category = categories[4];
             break;
         default: // main page
             set_colours(bg_def , nav_def);
