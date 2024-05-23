@@ -271,18 +271,6 @@ nav {
     padding: 0;
     background: transparent;
   }
-  .social-icons {
-    display: flex;
-  }
-  .social-icons a {
-    margin: 0 0.5rem;
-    color: var(--clr-primary-5);
-    transition: var(--transition);
-  }
-  .social-icons a:hover {
-    color: var(--clr-primary-7);
-  }
-
   
 
   /*------All following are for test purposes--------*/
@@ -421,6 +409,16 @@ Countdown Timer
   width: 160px;
   height: 50%;
   border-radius: 8px;
+}
+
+.links a {
+  color: var(--clr-grey-1);
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  display: block;
+  padding: 0.25rem 0.9rem;
+  transition: var(--transition);
 }
 
 /* Lightbox styles */
