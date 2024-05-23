@@ -15,21 +15,21 @@ const body_bg = document.querySelector("body");
 const navbar = document.querySelector("nav");
 
 // Background Colour
+const bg_def = '--clr-custom-bg';
 const bg_family = '--clr-family-page';
 const bg_greg = '--clr-greg-page';
 const bg_friend = '--clr-friends-page';
-const bg_timer = '--clr-timer-page';
 const bg_jayde = '--clr-jayde-page';
-const bg_def = '--clr-custom-bg';
+const bg_timer = '--clr-timer-page';
 
 
 // Nav-bar colours
 const nav_def = '--clr-nav-def';
-const nav_greg = '--clr-nav-greg';
-const nav_timer = '--clr-nav-timer';
-const nav_friends = '--clr-nav-friends';
 const nav_family = '--clr-nav-family';
+const nav_greg = '--clr-nav-greg';
+const nav_friends = '--clr-nav-friends';
 const nav_jayde = '--clr-nav-jayde';
+const nav_timer = '--clr-nav-timer';
 
 // Find the category for the page and asisgn colours and theme
 function get_category() {
