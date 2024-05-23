@@ -1,4 +1,4 @@
-//           all or nothing-0, friends-1, greg-2, family-3
+//     no category = 0, friends=1, greg=2, family=3,  jayde=4
 const categories = ["", "friends", "greg", "family", "jayde"];
 
 let rez = document.getElementById('gallery');

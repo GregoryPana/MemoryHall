@@ -1,6 +1,6 @@
 let res = document.getElementById('gallery');
 
-// Function to display all imaes regardless of category
+// Function to display all images regardless of category
 x = 0
 
 function diplayImages() {
@@ -15,6 +15,9 @@ function diplayImages() {
         res.innerHTML = displayItems;
 }
 
-
 // run
 diplayImages();
+
+
+
+// ======= NO LONGER NEEDED WITH REMOVAL OF ALL PAGES =========
