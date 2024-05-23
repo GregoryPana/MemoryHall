@@ -27,15 +27,16 @@ Variables
   --clr-nav-timer:  hsl(209, 35%, 57%);
   --clr-nav-friends: #8864c1;
   --clr-nav-family:   #d86055e7;
-  --clr-nav-jayde:   #d86055e7;
+  --clr-nav-jayde:   #6ed0e8e7;
 
 
   /*background colours for each page*/
   --clr-friends-page: #e7c4df; 
   --clr-family-page:  #ffb4a9;
-  --clr-greg-page: #a38d5f;
-  --clr-jayde-page: #e7c4df;
+  --clr-greg-page: #916d3c;
+  --clr-jayde-page: #9c9c9c;
   --clr-timer-page: hsl(211, 39%, 23%);
+
 
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
