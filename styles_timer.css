@@ -15,8 +15,10 @@ Variables
 
   /*Custom colours*/
   --clr-nav-timer:  hsl(209, 35%, 57%);
-  --clr-timer-page: hsl(211, 39%, 23%);
-
+  --clr-timer-page: hsl(211, 51%, 25%);
+  
+  --clr-nav-top:   hsl(209, 35%, 57%);
+  --clr-custom-bg: hsl(211, 51%, 25%);
 
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -77,7 +79,7 @@ Global Styles
 body {
   align-content: center;
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background: var(--clr-custom-bg);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -203,7 +205,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-grey-4);
+  background: var(--clr-nav-top);
   box-shadow: var(--dark-shadow);
 }
 .nav-header {
