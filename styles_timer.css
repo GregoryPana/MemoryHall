@@ -290,12 +290,12 @@ nav {
 
 .links a {
   color: var(--clr-grey-1);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 400;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
-  padding:  0.25rem 0.9rem;
+  padding:  0.3rem 0.9rem;
   transition: var(--transition);
 }
 .links a:hover {
