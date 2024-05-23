@@ -14,11 +14,11 @@ Variables
 :root {
 
   /*Custom colours*/
-  --clr-nav-timer:  hsl(209, 35%, 57%);
-  --clr-timer-page: hsl(211, 51%, 25%);
+  --clr-nav-timer:  hsl(209, 54%, 69%);
+  --clr-timer-page: hsl(209, 28%, 30%);
   
-  --clr-nav-top:   hsl(209, 35%, 57%);
-  --clr-custom-bg: hsl(211, 51%, 25%);
+  --clr-nav-top:   hsl(209, 54%, 69%);
+  --clr-custom-bg: hsl(209, 28%, 30%);
 
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
