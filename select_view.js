@@ -1,5 +1,5 @@
 //           all or nothing-0, friends-1, greg-2, family-3
-const categories = ["", "friends", "greg", "family"];
+const categories = ["", "friends", "greg", "family","jayde"];
 
 let rez = document.getElementById('gallery');
 
@@ -35,7 +35,7 @@ function get_category() {
             set_colours(bg_friend, nav_friends)
             category = categories[1];
             break;
-        case "backup.html": // food - Gregory Page
+        case "greg.html": // food - Gregory Page
             set_colours(bg_greg, nav_greg)
             category = categories[2];
             break;
@@ -46,6 +46,10 @@ function get_category() {
         case "timer.html": // countdown - Timer Page
             set_colours(bg_timer, nav_timer)
             category = categories[0];
+            break;
+        case "jayde.html": // countdown - Timer Page
+            set_colours(bg_timer, nav_timer)
+            category = categories[4];
             break;
         default: // main page
             set_colours(bg_def , nav_def);

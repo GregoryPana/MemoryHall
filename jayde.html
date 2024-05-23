@@ -7,8 +7,7 @@
     <!-- font-awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
     <!-- styles -->
     <link rel="stylesheet" href="styles.css" />
@@ -47,27 +46,33 @@
       </div>
     </nav>
 
-    <div class="wrapper">
-        <h1>UNDER MAINTENANCE. CHECK BACK SOON!</h1>
-        <img src="Gallery\family\jayde2.jpg" alt='Jayde Picture'>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
-        <div><span class="dot"></span></div>
+    <!--GALLERY-->
+    <div class="gallery" id="gallery" onclick="openLightbox(event)"></div>
+    <!--LIGHTHOUSE-->
+
+    <!-- Lightbox container -->
+    <div id="lightbox">
+      <!-- Close button -->
+      <span id="close-btn" onclick="closeLightbox()">&times;</span>
+
+      <!-- Main lightbox image -->
+      <img id="lightbox-img" src alt="lightbox image" />
+
+      <!-- Thumbnails container -->
+      <div id="thumbnail-container">
+        <!-- Thumbnails will be added dynamically using JavaScript -->
+      </div>
+
+      <!-- Previous and Next buttons -->
+      <button id="prev-btn" onclick="changeImage(-1)">Prev</button>
+      <button id="next-btn" onclick="changeImage(1)">Next</button>
     </div>
 
     <!-- javascript -->
+    <script src="json_out.js"></script>
     <script src="app.js"></script>
-    </body>
+    <script src="select_view.js"></script>
+    <script src="lightbox.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
