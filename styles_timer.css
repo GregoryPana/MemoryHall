@@ -15,10 +15,10 @@ Variables
 
   /*Custom colours*/
   --clr-nav-timer:  hsl(209, 54%, 69%);
-  --clr-timer-page: hsl(209, 28%, 30%);
+  --clr-timer-page: hsl(208, 31%, 24%);
   
   --clr-nav-top:   hsl(209, 54%, 69%);
-  --clr-custom-bg: hsl(209, 28%, 30%);
+  --clr-custom-bg: hsl(209, 30%, 20%);
 
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
