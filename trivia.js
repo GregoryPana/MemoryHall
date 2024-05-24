@@ -5,19 +5,19 @@ const categories = {
         { question: "Who wrote 'The Communist Manifesto'?", answer: "Karl Marx" }
     ],
     gregory: [
-        { question: "What is the chemical symbol for water?", answer: "H2O" },
-        { question: "Who discovered penicillin?", answer: "Alexander Fleming" },
-        { question: "What is the closest planet to the sun?", answer: "Mercury" }
+        { question: "G : What was the first thing I bought you?", answer: "Starbucks when we first met" },
+        { question: "G : 1y location?", answer: "Define" },
+        { question: "G : Our most played game together?", answer: "Overwatch ... 500hrs in game time" }
     ],
     yuka: [
-        { question: "Which movie won the Academy Award for Best Picture in 1994?", answer: "Forrest Gump" },
-        { question: "Who directed the 'Lord of the Rings' trilogy?", answer: "Peter Jackson" },
-        { question: "Who played Neo in 'The Matrix'?", answer: "Keanu Reeves" }
+        { question: "Y : Should i just go home now?", answer: "C : OMG Yueka, just go la" },
+        { question: "C : Are you high?", answer: "I've been flying" },
+        { question: "Y : Why?", answer: "C : Premature!" }
     ],
     jayde: [
-        { question: "Huh?", answer: " huh? " },
-        { question: "HUH!?!", answer: " :o " },
-        { question: "where bregaly?", answer: "I going to beat you jayde" }
+        { question: "J : Huh?", answer: " huh? " },
+        { question: "J : HUH!?!", answer: " :o " },
+        { question: "J : Where Bregaly?", answer: "I going to beat you jayde" }
     ],
 };
 
