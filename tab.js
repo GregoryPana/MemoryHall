@@ -26,18 +26,34 @@ function get_info(id){
     message = document.querySelector('.about-content');
     switch(id){
         case "family":
-            message.innerHTML = `<c> FAM Message </c>`;
+            message.innerHTML = `<c> ${fam_msg} </c>`;
             break;
         case "gregory":
-            message.innerHTML = `<c> BF Message </c>`; 
+            message.innerHTML = `<c> ${greg_msg} </c>`; 
             break;
         case "friends":
-            message.innerHTML = `<c> FRIEND Message </c>`;
+            message.innerHTML = `<c> ${fren_msg} </c>`;
             break;
         default:        
     }
 }
 
+// Get the button element
+var trivia_btn = document.getElementById("game-btn");
 
-// RUN MAIN
-get_info(id);
+// Add an event listener to the button
+trivia_btn.addEventListener("click", function() {
+    // Redirect to the new page when the button is clicked
+    window.location.href = "test.html";
+});
+
+// Messages 
+greg_msg = "Come back plz, i have buds for you"
+
+fam_msg = "Hi Jaja, Hi jaja, I like jaja... huh? - Jayde"
+
+fren_msg = "Mother i love and miss you so much pweez come back - Yuka"
+
+
+// RUN once to get starting tab message
+get_info('family');
