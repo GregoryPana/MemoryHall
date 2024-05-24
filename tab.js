@@ -44,7 +44,7 @@ var trivia_btn = document.getElementById("game-btn");
 // Add an event listener to the button
 trivia_btn.addEventListener("click", function() {
     // Redirect to the new page when the button is clicked
-    window.location.href = "test.html";
+    window.location.href = "trivia.html";
 });
 
 // Messages 
