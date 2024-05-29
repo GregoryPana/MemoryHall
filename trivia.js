@@ -1,8 +1,7 @@
 const categories = {
     mother: [
-        { question: "Who was the first president of the United States?", answer: "George Washington" },
-        { question: "In which year did World War II end?", answer: "1945" },
-        { question: "Who wrote 'The Communist Manifesto'?", answer: "Karl Marx" }
+        { question: "M: What you doing?", answer: "M: Ah look just like your father!" },
+        { question: "M: What are you doing?", answer: "C: Smoking, what else?" }
     ],
     gregory: [
         { question: "G : What was the first thing I bought you?", answer: "Starbucks when we first met" },
@@ -17,7 +16,8 @@ const categories = {
     jayde: [
         { question: "J : Huh?", answer: " huh? " },
         { question: "J : HUH!?!", answer: " :o " },
-        { question: "J : Where Bregaly?", answer: "I going to beat you jayde" }
+        { question: "J : Where Bregaly?", answer: "I going to beat you jayde" },
+        { question: "C : Jayde why you so smelly?", answer: " huh? " },
     ],
 };
 
