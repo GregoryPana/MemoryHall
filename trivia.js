@@ -17,8 +17,11 @@ const categories = {
         { question: "J : Huh?", answer: " huh? " },
         { question: "J : HUH!?!", answer: " :o " },
         { question: "J : Where Bregaly?", answer: "I going to beat you jayde" },
-        { question: "C : Jayde why you so smelly?", answer: " huh? " },
+        { question: "C : Jayde why you so smelly?", answer: "J: huh? " },
     ],
+    andrew: [
+        { question: "C : This is why your mother never loves you", answer: " huh? " },
+    ]
 };
 
 let currentCategory = null;
