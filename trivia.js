@@ -1,7 +1,8 @@
 const categories = {
     mother: [
         { question: "M: What you doing?", answer: "M: Ah look just like your father!" },
-        { question: "M: What are you doing?", answer: "C: Smoking, what else?" }
+        { question: "M: What are you doing?", answer: "C: Smoking, what else?" },
+        { question: "C: Ma why you dont love me?", answer: "M: Shut up laaa" }
     ],
     gregory: [
         { question: "G : What was the first thing I bought you?", answer: "Starbucks when we first met" },
