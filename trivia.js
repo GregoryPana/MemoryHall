@@ -1,27 +1,33 @@
 const categories = {
     mother: [
-        { question: "M: What you doing?", answer: "M: Ah look just like your father!" },
-        { question: "M: What are you doing?", answer: "C: Smoking, what else?" },
-        { question: "C: Ma why you dont love me?", answer: "M: Shut up laaa" }
+        { question: "M: What you doing?", answer: "M : Ah look just like your father!" },
+        { question: "M: What are you doing?", answer: "C : Smoking, what else?" },
+        { question: "C: Ma why you dont love me?", answer: "M : Shut up laaa" }
     ],
-    gregory: [
+    /*gregory: [
         { question: "G : What was the first thing I bought you?", answer: "Starbucks when we first met" },
         { question: "G : 1y location?", answer: "Define" },
-        { question: "G : Our most played game together?", answer: "Overwatch ... 500hrs in game time" }
-    ],
+        { question: "C : What mimi do?", answer: "G: Nothing" }
+    ],*/
     yuka: [
         { question: "Y : Should i just go home now?", answer: "C : OMG Yueka, just go la" },
-        { question: "C : Are you high?", answer: "I've been flying" },
+        { question: "C : Are you high?", answer: "Y : I've been flying bro" },
         { question: "Y : Why?", answer: "C : Premature!" }
     ],
     jayde: [
-        { question: "J : Huh?", answer: " huh? " },
-        { question: "J : HUH!?!", answer: " :o " },
-        { question: "J : Where Bregaly?", answer: "I going to beat you jayde" },
-        { question: "C : Jayde why you so smelly?", answer: "J: huh? " },
+        { question: "C : *Asks anything*", answer: "J : huh? " },
+        { question: "C : HUH!?!", answer: " :o " },
+        { question: "C : Jayde stop", answer: "J/Zen : Kick you, kick you, kick you " },
+        { question: "C : Jayde what you eat today", answer: "J : Hi Jaja, Hi Jaja. I like Jaja" },
+        { question: "J : Where Bregaly?", answer: "C : I going to beat you jayde" },
+        { question: "C : Jayde why you so smelly?", answer: "J : huh? " }
     ],
     andrew: [
-        { question: "C : This is why your mother never loves you", answer: " huh? " },
+        { question: "C : This is why your mother never loves you", answer: "A : pfft wtfff? " },
+        { question: "A : You guys getting food?", answer: "C : You no need to eat, starve Bitch " },
+        { question: "C : Oohoohohho Andrew, im gona beat you andrew oohOOhhoho", answer: "A : Wtf why?!" },
+        { question: "C : Hey, Bastard... Who said you can have", answer: "A : *gives up all sad*" },
+        { question: "A : I can beat you, you know?", answer: "C : Watch... just wait, i'll kill you in your sleep Andrew i'm gona, eeeeeshhhhe ,oohhoooajh... yeah just wait" }
     ]
 };
 
