@@ -6,7 +6,8 @@
     --clr-black: #222;
     --clr-pink: #f7a4ff;
     --clr-back: #edc69f;
-    --clr-background:#efd7c1;
+    --clr-btn-white: #ebe7e3;
+    --clr-background:#f7eee6;
     --clr-question: #a1a1a1;
     --spacing: 0.1rem;
     --radius: 0.25rem;
@@ -46,7 +47,7 @@ h2 {
 
 .category-btn {
     text-transform: uppercase;
-    background: transparent;
+    background: var(--clr-btn-white);
     color: var(--clr-black);
     padding: 0.375rem 0.75rem;
     letter-spacing: var(--spacing);
@@ -96,7 +97,7 @@ h2 {
 #reset-btn,
 #another-btn {
     text-transform: uppercase;
-    background: transparent;
+    background: var(--clr-btn-white);
     color: var(--clr-black);
     padding: 0.375rem 0.75rem;
     letter-spacing: var(--spacing);
