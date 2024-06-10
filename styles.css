@@ -16,14 +16,14 @@ Variables
   --clr-friend-theme-nav: #57d3e1;
   --clr-friend-theme: #dd5151ee;
   --clr-nav-top:  hsl(0, 63%, 75%);
-  --clr-custom-bg: #e2c6c6;
+  --clr-custom-bg: #797979;
   --clr-title: #FFDDDD;
   --clr-nav-button-hover: #ffdddd76;
   --clr-title-shadow: #a79090;
 
   /*nav bar colours for each page  #98868C; */
   --clr-nav-greg: #d8a97a;
-  --clr-nav-def: hsl(0, 63%, 75%);
+  --clr-nav-def: hsl(31, 35%, 45%);
   --clr-nav-timer:  hsl(209, 35%, 57%);
   --clr-nav-friends: #8864c1;
   --clr-nav-family:   #d86055e7;
