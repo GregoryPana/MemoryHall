@@ -6,6 +6,7 @@
     --clr-black: #222;
     --clr-pink: #f7a4ff;
     --clr-back: #edc69f;
+    --clr-back-border: #af8a65;
     --clr-btn-white: #ebe7e3;
     --clr-background:#f7eee6;
     --clr-question: #a1a1a1;
@@ -71,7 +72,7 @@ h2 {
     display: inline-block;
     transition: var(--transition);
     font-size: 0.875rem;
-    border: 2px solid var(--clr-back);
+    border: 2px solid var(--clr-back-border);
     cursor: pointer;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: var(--radius);
