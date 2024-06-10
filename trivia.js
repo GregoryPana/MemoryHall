@@ -91,10 +91,19 @@ anotherButton.addEventListener('click', selectAnotherQuestion);
 
 
 // Get the button element
-var back_btn = document.getElementById("back-btn");
+var timer_btn = document.getElementById("back-c-btn");
 
 // Add an event listener to the button
-back_btn.addEventListener("click", function() {
+timer_btn.addEventListener("click", function() {
     // Redirect to the new page when the button is clicked
     window.location.href = "timer.html";
+});
+
+// Get the button element
+var gallery_btn = document.getElementById("back-g-btn");
+
+// Add an event listener to the button
+gallery_btn.addEventListener("click", function() {
+    // Redirect to the new page when the button is clicked
+    window.location.href = "family.html";
 });

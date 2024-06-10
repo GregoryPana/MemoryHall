@@ -62,7 +62,8 @@ h2 {
     margin: 0.5rem;
 }
 
-#back-btn {
+#back-g-btn,
+#back-c-btn{
     margin-top: 30px;
     text-transform: uppercase;
     background: var(--clr-black);
@@ -127,7 +128,8 @@ h2 {
     background: var(--clr-black);
 }
 
-#back-btn:hover{
+#back-c-btn:hover,
+#back-g-btn:hover{
     color:  var(--clr-black);
     background: var(--clr-back);
 }
