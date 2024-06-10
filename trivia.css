@@ -61,7 +61,7 @@ h2 {
     margin: 0.5rem;
 }
 
-.back-btn {
+#back-btn {
     text-transform: uppercase;
     background: var(--clr-black);
     color: var(--clr-back);
@@ -125,7 +125,7 @@ h2 {
     background: var(--clr-black);
 }
 
-.back-btn:hover{
+#back-btn:hover{
     color:  var(--clr-black);
     background: var(--clr-back);
 }
