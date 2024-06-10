@@ -57,6 +57,7 @@ const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\greg\\sing_scam.jpg', 'type': 'greg'}, 
 {'path': 'Gallery\\greg\\sing_scam2.jpg', 'type': 'greg'}, 
 {'path': 'Gallery\\greg\\streaks.jpg', 'type': 'greg'}, 
+{'path': 'Gallery\\greg\\cass_ioi.jpg', 'type': 'greg'},
 
 {'path': 'Gallery\\jayde\\jaja_jayde.jpg', 'type': 'jayde'}, 
 {'path': 'Gallery\\jayde\\jaja_jayde2.jpg', 'type': 'jayde'}, 
