@@ -16,7 +16,8 @@ Variables
   --clr-friend-theme-nav: #57d3e1;
   --clr-friend-theme: #dd5151ee;
   --clr-nav-top:  #edc69f;
-  --clr-custom-bg: #868686;
+  /*--clr-custom-bg: #868686;*/
+  --clr-custom-bg: #222222;
   --clr-title: #FFDDDD;
   --clr-nav-button-hover: #ffdddd76;
   --clr-title-shadow: #a79090;
@@ -144,6 +145,7 @@ h3 {
   font-size: 1.25rem;
 }
 h4 {
+  margin: 0.75rem;
   font-size: 0.875rem;
   color: var(--clr-back);
 }
@@ -169,6 +171,7 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
   margin: 0.5rem;
+  margin-bottom: 40px;
 }
 #family-btn:hover,
 #trivia-btn:hover,
