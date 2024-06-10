@@ -88,3 +88,14 @@ categoryButtons.forEach(button => {
 revealButton.addEventListener('click', revealAnswer);
 resetButton.addEventListener('click', resetGame);
 anotherButton.addEventListener('click', selectAnotherQuestion);
+
+
+// Get the button element
+var back_btn = document.getElementById("back-btn");
+
+
+// Add an event listener to the button
+back_btn.addEventListener("click", function() {
+    // Redirect to the new page when the button is clicked
+    window.location.href = "timer.html";
+});
