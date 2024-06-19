@@ -13,6 +13,8 @@ const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\jaja_mother3.jpg', 'type': 'family'},
 {'path': 'Gallery\\family\\smellies.jpg', 'type': 'family'},
 
+// Friends Pictures ------------------------------------------------------
+
 {'path': 'Gallery\\friends\\cass_bday_yuka.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\cass_yuka.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\cass_yuka_2.jpg', 'type': 'friends'},
@@ -24,6 +26,8 @@ const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\friends\\group_SL_3.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\out.jpg', 'type': 'friends'},
 {'path': 'Gallery\\friends\\photobooth.jpg', 'type': 'friends'},
+
+// Gregory Pictures ------------------------------------------------------
 
 {'path': 'Gallery\\greg\\1st_meet.jpg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\1year.jpg', 'type': 'greg'},
@@ -62,6 +66,8 @@ const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\greg\\kirby_close.jpg', 'type': 'greg'},
 {'path': 'Gallery\\greg\\cass_kirby.jpg', 'type': 'greg'},
 
+// Jayde Pictures ------------------------------------------------------
+
 {'path': 'Gallery\\jayde\\jaja_jayde.jpg', 'type': 'jayde'}, 
 {'path': 'Gallery\\jayde\\jaja_jayde2.jpg', 'type': 'jayde'}, 
 {'path': 'Gallery\\jayde\\jaja_jayde3.jpg', 'type': 'jayde'}, 
@@ -70,4 +76,9 @@ const data = [{'path': 'Gallery\\family\\fam.jpg', 'type': 'family'},
 {'path': 'Gallery\\jayde\\jayde2.jpg', 'type': 'jayde'}, 
 {'path': 'Gallery\\jayde\\jayde_cri.jpg', 'type': 'jayde'},
 {'path': 'Gallery\\jayde\\jayde_papa.jpg', 'type': 'jayde'},
+{'path': 'Gallery\\jayde\\jayde_towel.jpg', 'type': 'jayde'},
+{'path': 'Gallery\\jayde\\jayde_oli.jpg', 'type': 'jayde'},
+{'path': 'Gallery\\jayde\\jayde_jaja_sleep.jpg', 'type': 'jayde'},
+{'path': 'Gallery\\jayde\\jayde_smol.jpg', 'type': 'jayde'},
+{'path': 'Gallery\\jayde\\jayde_shower.jpg', 'type': 'jayde'},
 {'path': 'Gallery\\jayde\\jayde_papa2.jpg', 'type': 'jayde'}];
