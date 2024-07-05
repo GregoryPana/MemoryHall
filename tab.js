@@ -25,14 +25,14 @@ about.addEventListener("click", function (e) {
 function get_info(id){
     message = document.querySelector('.about-content');
     switch(id){
-        case "family":
-            message.innerHTML = `<c> ${fam_msg} </c>`;
+        case "beaches":
+            message.innerHTML = `<c> ${beach_msg} </c>`;
             break;
-        case "gregory":
-            message.innerHTML = `<c> ${greg_msg} </c>`; 
+        case "hikes":
+            message.innerHTML = `<c> ${hikes_msg} </c>`; 
             break;
-        case "friends":
-            message.innerHTML = `<c> ${fren_msg} </c>`;
+        case "poi":
+            message.innerHTML = `<c> ${poi_msg} </c>`;
             break;
         default:        
     }
@@ -48,12 +48,14 @@ trivia_btn.addEventListener("click", function() {
 });
 
 // Messages 
-greg_msg = "Come back plz, i have buds for you"
 
-fam_msg = "Hi Jaja, Hi jaja, I like jaja... huh? - Jayde"
+let beach_msg = ["Anse Major", "Anse Lazio", "Anse Intandance"];
 
-fren_msg = "Mother i love and miss you so much pweez come back - Yuka"
+let hikes_msg = ["Anse Major Trail", "Copolia", "Mont Trois Freres"];
+
+let poi_msg = ["Grand Police Rock Pool", "Ros Sodyer Rock Pool"];
+
 
 
 // RUN once to get starting tab message
-get_info('family');
+get_info('beaches');

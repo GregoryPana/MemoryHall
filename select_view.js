@@ -21,6 +21,7 @@ const bg_greg = '--clr-greg-page';
 const bg_friend = '--clr-friends-page';
 const bg_jayde = '--clr-jayde-page';
 const bg_timer = '--clr-timer-page';
+const bg_seychelles = '--clr-seychelles-page';
 
 
 // Nav-bar colours
@@ -30,6 +31,7 @@ const nav_greg = '--clr-nav-greg';
 const nav_friends = '--clr-nav-friends';
 const nav_jayde = '--clr-nav-jayde';
 const nav_timer = '--clr-nav-timer';
+const nav_seychelles = '--clr-nav-seychelles';
 
 // Find the category for the page and asisgn colours and theme
 function get_category() {
@@ -52,6 +54,10 @@ function get_category() {
             break;
         case "timer.html": // countdown - Timer Page
             set_colours(bg_timer, nav_timer)
+            category = categories[0];
+            break;
+        case "seychelles.html": // countdown - Timer Page
+            set_colours(bg_seychelles, nav_seychelles)
             category = categories[0];
             break;
         default: // main page

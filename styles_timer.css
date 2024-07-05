@@ -17,10 +17,17 @@ Variables
   --clr-nav-timer:  hsl(209, 54%, 69%);
   --clr-timer-page: hsl(208, 31%, 24%);
 
-  --clr-pink: #f7a4ff;
+
+  --clr-nav-seychelles:   #89cff0;
+
+  --clr-seychelles-page: #f5f5dc;
+
+
+  --clr-coral-pink: #ff6f61;
+  --clr-text-custom: #534130;
   
   --clr-nav-top:   hsl(209, 54%, 69%);
-  --clr-custom-bg: hsl(209, 30%, 20%);
+  --clr-custom-bg: hsl(200, 23%, 3%);
 
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -120,20 +127,20 @@ h2 {
   font-size: 2rem;
 }
 h3 {
-  color:  var(--clr-primary-7);
+  color:  var(--clr-text-custom);
   font-size: 1.25rem;
 }
 h4 {
-  color: var(--clr-primary-4);
+  color: var(--clr-coral-pink);
   font-size: 0.875rem;
 }
 p {
-  color: var(--clr-grey-8);
+  color: var(--clr-text-custom);
   margin-bottom: 1.25rem;
   text-align: justify;
 }
 c {
-  color: var(--clr-grey-3);
+  color: var(--clr-text-custom);
   margin-bottom: 1.25rem;
 }
 #game-btn {
@@ -362,7 +369,7 @@ max-width: fit-content;
 display: flex;
 }
 .deadline-format {
-background: var(--clr-grey-1);
+background: var(--clr-text-custom);
 color: var(--clr-white);
 margin-right: 1rem;
 width: 5rem;
@@ -541,7 +548,7 @@ END OF MOBILE VIEW
     display: flex;
   }
   .deadline-format {
-    background: var(--clr-grey-1);
+    background: var(--clr-text-custom);
     color: var(--clr-white);
     margin-right: 1rem;
     width: 5rem;
@@ -626,18 +633,18 @@ Countdown Timer
 }
 .gift-info h3 {
   text-transform: uppercase;
-  color: var(--clr-primary-7);
+  color: var(--clr-text-custom);
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 .gift-info p {
-  color: var(--clr-grey-8);
+  color: var(--clr-text-custom);
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   width: 80vw;
 }
 .date {
-  color: var(--clr-grey-5);
+  color: var(--clr-text-custom);
   font-size: 0.85rem;
 }
 }
@@ -740,7 +747,7 @@ Countdown Timer
     display: flex;
   }
   .deadline-format {
-    background: var(--clr-grey-1);
+    background: var(--clr-text-custom);
     color: var(--clr-white);
     margin-right: 1rem;
     width: 5rem;

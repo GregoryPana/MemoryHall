@@ -29,10 +29,10 @@ let tempDate = new Date();
 
 // let tempYear = 2024;
 let tempYear = 2024;
-let tempMonth = 8;
-let tempDay = 4;
+let tempMonth = 6;
+let tempDay = 24;
 // months are ZERO index based;
-const futureDate = new Date(tempYear, tempMonth, tempDay, 9, 30, 0);
+const futureDate = new Date(tempYear, tempMonth, tempDay, 20, 30, 0);
 
 // let futureDate = new Date(2020, 3, 24, 11, 30, 0);
 
@@ -44,7 +44,7 @@ let month = futureDate.getMonth();
 month = months[month];
 const weekday = weekdays[futureDate.getDay()];
 const date = futureDate.getDate();
-giveaway.textContent = `Your Flight is ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}pm`;
+giveaway.textContent = `Your Flight is ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}`;
 
 const futureTime = futureDate.getTime();
 function getRemaindingTime() {
