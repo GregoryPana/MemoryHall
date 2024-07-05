@@ -18,5 +18,5 @@ family_btn.addEventListener("click", function() {
 // Add an event listener to the button
 timer_btn.addEventListener("click", function() {
     // Redirect to the new page when the button is clicked
-    window.location.href = "timer.html";
+    window.location.href = "seychelles.html";
 });
