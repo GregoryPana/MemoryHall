@@ -51,13 +51,19 @@ trivia_btn.addEventListener("click", function() {
 
 let beach_msg = ["Anse Major", "Anse Lazio", "Anse Intandance"];
 
-
-
 let hikes_msg = ["Anse Major Trail", "Copolia", "Mont Trois Freres"];
 
 let poi_msg = ["Grand Police Rock Pool", "Ros Sodyer Rock Pool"];
 
+function list_print(array_data){
+    joined_text = '';
+    while (i <= array_data.length)
+        {
+            joined_text =  joined_text.concat(" ", array_data[i]);
+        }
+    return joined_text;
 
-
+}
 // RUN once to get starting tab message
+print(list_print(beach_msg));
 get_info('beaches');
