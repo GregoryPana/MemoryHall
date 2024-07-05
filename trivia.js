@@ -24,7 +24,7 @@ const categories = {
     ],
     andrew: [
         { question: "C : This is why your mother never loves you", answer: "A : pfft wtfff? " },
-        { question: "C : Fucking drug addict", answer: "A : slurring* I... you, fucki... -itch " },
+        { question: "C : Fucking drug addict", answer: "A : *slurring* I... you, fucki... -itch " },
         { question: "A : You guys getting food?", answer: "C : You no need to eat, starve Bitch " },
         { question: "C : Oohoohohho Andrew, im gona beat you andrew oohOOhhoho", answer: "A : Wtf why?!" },
         { question: "C : Hey, Bastard... Who said you can have", answer: "A : *gives up all sad*" },
