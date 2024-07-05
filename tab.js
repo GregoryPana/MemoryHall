@@ -60,6 +60,7 @@ function list_print(array_data){
     while (i <= array_data.length)
         {
             joined_text =  joined_text.concat(" ", array_data[i]);
+            i += 1;
         }
     return joined_text;
 
