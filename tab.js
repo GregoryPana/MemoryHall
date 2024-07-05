@@ -51,6 +51,8 @@ trivia_btn.addEventListener("click", function() {
 
 let beach_msg = ["Anse Major", "Anse Lazio", "Anse Intandance"];
 
+
+
 let hikes_msg = ["Anse Major Trail", "Copolia", "Mont Trois Freres"];
 
 let poi_msg = ["Grand Police Rock Pool", "Ros Sodyer Rock Pool"];
