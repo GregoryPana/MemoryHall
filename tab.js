@@ -21,15 +21,35 @@ about.addEventListener("click", function (e) {
     } 
 });
 
+// Messages 
+
+
+var beaches = ["Anse Major", "Anse Lazio", "Beau Vallon"];
+beach_list = "";
+hikes_list = "";
+
+beaches.forEach(function(entry) {
+    beach_list = beach_list + " <li> " + entry + " </li>" 
+});
+
+let hikes = ["Anse Major Trail", "Copolia Trail", "Mont Trois Freres"]
+
+hikes.forEach(function(entry) {
+    hikes_list = hikes_list + " <li> " + entry + " </li>" 
+});
+
+let poi_msg = "Grand Police Rock Pool Ros Sodyer Rock Pool"
+
+
 // Display the message for selected tab
 function get_info(id){
     message = document.querySelector('.about-content');
     switch(id){
         case "beaches":
-            message.innerHTML = `<c> ${beach_msg} </c>`;
+            message.innerHTML = `<c> ${beach_list} </c>`;
             break;
         case "hikes":
-            message.innerHTML = `<c> ${hikes_msg} </c>`; 
+            message.innerHTML = `<c> ${hikes_list} </c>`; 
             break;
         case "poi":
             message.innerHTML = `<c> ${poi_msg} </c>`;
@@ -47,24 +67,8 @@ trivia_btn.addEventListener("click", function() {
     window.location.href = "trivia.html";
 });
 
-// Messages 
 
-let beach_msg = ["Anse Major", "Anse Lazio", "Anse Intandance"];
 
-let hikes_msg = ["Anse Major Trail", "Copolia", "Mont Trois Freres"];
-
-let poi_msg = ["Grand Police Rock Pool", "Ros Sodyer Rock Pool"];
-
-function list_print(array_data){
-    joined_text = '';
-    while (i <= array_data.length)
-        {
-            joined_text =  joined_text.concat(" ", array_data[i]);
-            i += 1;
-        }
-    return joined_text;
-
-}
 // RUN once to get starting tab message
 print(list_print(beach_msg));
 get_info('beaches');

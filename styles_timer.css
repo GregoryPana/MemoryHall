@@ -16,15 +16,18 @@ Variables
   /*Custom colours*/
   --clr-nav-timer:  hsl(209, 54%, 69%);
   --clr-timer-page: hsl(208, 31%, 24%);
+  --clr-links: hsl(43, 40%, 79%);
 
 
-  --clr-nav-seychelles:   #89cff0;
+  --clr-nav-seychelles:   #143a50;
 
-  --clr-seychelles-page: #f5f5dc;
+  --clr-seychelles-page: #ffffff;
 
-
-  --clr-coral-pink: #ff6f61;
-  --clr-text-custom: #534130;
+  /*--clr-text-custom: #534130;
+    --clr-coral-pink: #ff6f61;
+  */
+  --clr-coral-pink: hsl(43, 40%, 79%);
+  --clr-text-custom:#143a50;
   
   --clr-nav-top:   hsl(209, 54%, 69%);
   --clr-custom-bg: hsl(200, 23%, 3%);
@@ -100,6 +103,7 @@ a {
   text-decoration: none;
 }
 b {
+  color: var(--clr-links);
   font-size: 1.5rem;
 }
 
@@ -142,6 +146,9 @@ p {
 c {
   color: var(--clr-text-custom);
   margin-bottom: 1.25rem;
+}
+li {
+  color: var(--clr-links);
 }
 #game-btn {
   text-transform: uppercase;
@@ -257,7 +264,7 @@ nav {
   transform: rotate(90deg);
 }
 .links a {
-  color: var(--clr-grey-1);
+  color: var(--clr-links);
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -320,7 +327,7 @@ nav {
 }
 
 .links a {
-  color: var(--clr-grey-1);
+  color: var(--clr-links);
   font-size: 0.8rem;
   font-weight: 400;
   text-transform: capitalize;
@@ -403,7 +410,7 @@ letter-spacing: var(--spacing);
 }
 
 .about {
-background: var(--clr-grey-6);
+background: var(--clr-nav-seychelles);
 border-radius: var(--radius);
 display: grid;
 grid-template-rows: auto 1fr;
@@ -429,7 +436,7 @@ border: none;
 text-transform: capitalize;
 font-size: 1rem;
 display: block;
-background: var(--clr-grey-4);
+background: var(--clr-links);
 cursor: pointer;
 transition: var(--transition);
 font-family: var(--ff-rakkas);
@@ -452,8 +459,8 @@ font-weight: 400;
   display: none;
 }
 .tab-btn.active {
-  background: var(--clr-grey-6);
-  color: var(--clr-custom)
+  background: var(--clr-nav-seychelles);
+  color: var(--clr-links)
 }
 .content.active {
   display: block;
