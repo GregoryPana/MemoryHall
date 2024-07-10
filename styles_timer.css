@@ -52,7 +52,7 @@ Variables
   --clr-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-6: #143a50;
   --clr-grey-7: hsl(211, 27%, 70%);
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
@@ -475,7 +475,7 @@ END OF MOBILE VIEW
 @media screen and (min-width: 769px) {
 
   .about {
-    background: var(--clr-grey-6);
+    background: var(--clr-links);
     border-radius: var(--radius);
     display: grid;
     grid-template-rows: auto 1fr;
@@ -523,7 +523,7 @@ END OF MOBILE VIEW
     display: none;
   }
   .tab-btn.active {
-    background: var(--clr-grey-6);
+    background: var(--clr-links);
     color: var(--clr-custom)
   }
   .content.active {
@@ -673,7 +673,7 @@ Countdown Timer
     column-gap: 2rem;
   }
   .about {
-    background: var(--clr-grey-6);
+    background: var(--clr-links);
     border-radius: var(--radius);
     display: grid;
     grid-template-rows: auto 1fr;
@@ -722,7 +722,7 @@ Countdown Timer
     display: none;
   }
   .tab-btn.active {
-    background: var(--clr-grey-6);
+    background: var(--clr-links);
     color: var(--clr-custom)
   }
   .content.active {
