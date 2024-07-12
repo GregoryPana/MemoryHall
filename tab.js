@@ -24,9 +24,10 @@ about.addEventListener("click", function (e) {
 // Messages 
 
 
-var beaches = ["Anse Major", "Anse Lazio", "Beau Vallon"];
+var beaches = ["Anse Major", "Anse Lazio", "Beau Vallon", "Grand Police", "Anse Boilleau", "Anse Source D'argent"];
 beach_list = "";
 hikes_list = "";
+poi_list = "";
 
 beaches.forEach(function(entry) {
     beach_list = beach_list + " <li> " + entry + " </li>" 
@@ -38,8 +39,11 @@ hikes.forEach(function(entry) {
     hikes_list = hikes_list + " <li> " + entry + " </li>" 
 });
 
-let poi_msg = "Grand Police Rock Pool Ros Sodyer Rock Pool"
+let pois = ["Grand Police Rock Pool", "Ros Sodyer Rock Pool", "Praslin", "La Digue"]
 
+pois.forEach(function(entry) {
+    poi_list = poi_list + " <li> " + entry + " </li>" 
+});
 
 // Display the message for selected tab
 function get_info(id){
@@ -52,7 +56,7 @@ function get_info(id){
             message.innerHTML = `<c> ${hikes_list} </c>`; 
             break;
         case "poi":
-            message.innerHTML = `<c> ${poi_msg} </c>`;
+            message.innerHTML = `<c> ${poi_list} </c>`;
             break;
         default:        
     }
