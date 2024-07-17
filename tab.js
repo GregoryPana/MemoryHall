@@ -24,7 +24,7 @@ about.addEventListener("click", function (e) {
 // Messages 
 
 
-var beaches = ["Anse Major", "Beau Vallon", "Grand Police", "Anse Intendance", "Anse Boilleau", "Grand Anse (Mahe - Ranil)", "Anse Du Riz", "Anse Georgette (Praslin)", "Anse Lazio (Praslin)",  "Anse Cocos (La Digue)", "Anse Source D'argent (La Digue)"];
+var beaches = ["Anse Major", "Beau Vallon", "Grand Police", "Anse Intendance", "Grand Anse (Mahe - Ranil)", "Anse Du Riz", "Anse Georgette (Praslin)", "Anse Lazio (Praslin)",  "Anse Cocos (La Digue)", "Anse Source D'argent (La Digue)"];
 beach_list = "";
 hikes_list = "";
 poi_list = "";
